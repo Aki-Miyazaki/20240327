@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunabaco Cafe</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width:599px)">
+
+    <!-- AOS.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <img src="./img/logo.png" alt="" class="header__logo">
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__list"><a href="#menu">Menu</a></li>
+                <li class="navigation__list"><a href="#information">Information</a></li>
+                <li class="navigation__list"><a href="shop">Shop</a></li>
+            </ul>
+        </nav>
+        <div class="sns">
+            <a href="" class="sns__img"><img src="./img/instagram.png" alt=""></a>
+            <a href="" class="sns__img"><img src="./img/twitter.png" alt=""></a>
+        </div>
+    </header>
+
+    <div class="contents">
+        <main>
+            <div class="main-visual"></div>
+            <section class="section" id="menu">
+                <h2 class="section__title">Menu</h2>
+                <div class="menu">
+                    <img data-aos="fade-up" data-aos-duration="500" src="./img/photo02.jpg" alt="" class="menu__img">
+                    <img data-aos="fade-up" data-aos-duration="1000" src="./img/photo03.jpg" alt="" class="menu__img">
+                    <img data-aos="fade-up" data-aos-duration="1500" src="./img/photo04.jpg" alt="" class="menu__img">
+                </div>
+            </section>
+            <section class="section information" id="information">
+                <h2 class="section__title">Information</h2>
+                <div class="blog-container">
+                    <hr>
+                    <article class="blog" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./img/photo06.jpg" alt="" class="blog__img">
+                        <div class="blog__content">
+                            <span class="blog__date">2024.03.25</span>
+                            <p class="blog__text">インフォメーション<br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+                        </div>
+                    </article>
+                    <hr>
+                </div>
+                <div class="blog-container">
+                    <hr>
+                    <article class="blog" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./img/photo07.jpg" alt="" class="blog__img">
+                        <div class="blog__content">
+                            <span class="blog__date">2024.03.26</span>
+                            <p class="blog__text">インフォメーション<br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+                        </div>
+                    </article>
+                    <hr>
+                </div>
+                <div class="blog-container">
+                    <hr>
+                    <article class="blog" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./img/photo010.jpg" alt="" class="blog__img">
+                        <div class="blog__content">
+                            <span class="blog__date">2024.03.27</span>
+                            <p class="blog__text">インフォメーション<br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+                        </div>
+                    </article>
+                    <hr>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer"></footer>
+    </div>
+
+    <!-- AOS.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- ここまで -->
+
+</body>
+</html>
